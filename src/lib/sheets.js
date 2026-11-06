@@ -15,7 +15,7 @@ export const SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbwbkCX4H12
 
 /** true si ya pegaste la URL de tu Apps Script. */
 export const bdConfigurada = () =>
-  Boolean(SHEET_API_URL) && SHEET_API_URL !== 'TU_URL_AQUI';
+  Boolean(SHEET_API_URL) && SHEET_API_URL !== 'https://script.google.com/macros/s/AKfycbwbkCX4H12Zgr5PGTqzdrxK3EYSdhBXLUKddk8cRKl-soHuzYvOGGuHSUJHnRQdpV4X/exec';
 
 /**
  * Guarda un registro del operativo (POST).
