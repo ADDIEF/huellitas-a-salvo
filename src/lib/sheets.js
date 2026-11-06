@@ -11,7 +11,7 @@
 //   4. Copia la URL que termina en /exec y PÉGALA AQUÍ ABAJO ⬇️
 // =====================================================================
 
-export const SHEET_API_URL = 'TU_URL_AQUI';
+export const SHEET_API_URL = 'https://script.google.com/macros/s/AKfycbwbkCX4H12Zgr5PGTqzdrxK3EYSdhBXLUKddk8cRKl-soHuzYvOGGuHSUJHnRQdpV4X/exec';
 
 /** true si ya pegaste la URL de tu Apps Script. */
 export const bdConfigurada = () =>
