@@ -1,0 +1,13 @@
+# Dependencias
+node_modules
+
+# Build de producción
+dist
+
+# Archivos locales y del sistema
+*.local
+.DS_Store
+npm-debug.log*
+
+# 🎬 Material personal de trabajo (no forma parte de la app publicada)
+guion-video.md

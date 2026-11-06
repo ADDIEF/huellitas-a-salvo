@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body text-cafe-oscuro antialiased;
+    background: linear-gradient(135deg, #ede0f7 0%, #ffe4ec 45%, #fff7f0 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Tarjeta glassmorphism */
+  .glass {
+    @apply rounded-3xl border border-white/70 bg-white/45 shadow-xl shadow-purple-200/50 backdrop-blur-xl;
+  }
+
+  /* Campos del formulario */
+  .campo {
+    @apply w-full rounded-2xl border-2 border-purple-100 bg-white/80 px-4 py-2.5 font-semibold text-cafe-oscuro transition placeholder:font-medium placeholder:text-purple-300 focus:border-orange-400 focus:outline-none focus:ring-4 focus:ring-orange-200/60;
+  }
+
+  /* Botón principal: naranja fuerte lindo 🍊 */
+  .btn-primario {
+    @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-orange-400 to-orange-500 px-7 py-3 font-display text-lg font-bold text-white shadow-lg shadow-orange-300/60 transition hover:from-orange-500 hover:to-orange-600 active:scale-95;
+  }
+
+  /* Botón secundario */
+  .btn-secundario {
+    @apply inline-flex items-center gap-2 rounded-full border-2 border-orange-300 bg-white/70 px-6 py-3 font-display font-bold text-orange-600 shadow transition hover:bg-orange-50 active:scale-95;
+  }
+
+  /* Etiqueta de unidad junto a cada campo */
+  .chip-unidad {
+    @apply ml-2 rounded-full bg-purple-100 px-2 py-0.5 text-xs font-bold text-purple-500;
+  }
+
+  /* Título de sección con emoji */
+  .titulo-seccion {
+    @apply font-display text-2xl font-extrabold text-purple-600 md:text-3xl;
+  }
+}
